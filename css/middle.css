@@ -1,5 +1,5 @@
 body {
-	color: blue;
+	color: green;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -19,16 +19,15 @@ nav {
 
 .badge {
 	margin: 10%;
-	width: 80%;
+	width: 70%;
 	max-width: 200px;
 }
 
 .navlist {
 	width: 30%;
-	margin: 5% auto;
+	margin: 5% 0 5% 30%;
 	list-style: none;
 	padding: 0;
-	margin: 5% 0 5% 30%;
 }
 
 li {
@@ -37,7 +36,7 @@ li {
 
 a {
 	color: blue;
-	font-size: 30px;
+	font-size: 20px;
 	width: 80px;
 	height: 40px;
 	text-decoration:none;
@@ -55,7 +54,7 @@ header {
 .one_col {
 	display: inline-block;
 	vertical-align:top;
-	width: 20%;
+	width: 28%;
 	padding: 2%;
 	text-align: center;
 /*	margin-right: 5%;*/
