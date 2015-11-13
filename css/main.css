@@ -1,3 +1,76 @@
 body {
 	color: blue;
 }
+
+nav {
+	width: 20%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.container {
+	float: right;
+	width: 80%;
+}
+
+.badge {
+	margin: 10%;
+	width: 80%;
+	max-width: 200px;
+	height: 80%;
+}
+
+.navlist {
+	width: 30%;
+	margin: 5% auto;
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+a {
+	color: blue;
+	font-size: 30px;
+	width: 80px;
+	height: 40px;
+	text-decoration:none;
+}
+
+header {
+	width: 1000px;
+	height: 230px;
+	background:url("../images/allianz.png");
+	background-position: center top;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.one_col {
+	display: inline-block;
+	vertical-align:top;
+	width: 24%;
+/*	margin-right: 5%;*/
+}
+
+.shadow {
+			position:relative;
+		}
+
+.shadow:after{
+	z-index:-1;
+	content:"";
+	position:absolute;
+	background-color: rgba(0,0,0,0.15);
+	box-shadow:0 0 20px 20px rgba(0,0,0,0.15);
+	height:1%;
+	left:-1%;
+	width:100px;
+	bottom:-10%;
+	margin: 50px;
+	border-width: 50px;
+	border-radius:100%;
+}
