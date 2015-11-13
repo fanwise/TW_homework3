@@ -1,12 +1,15 @@
 body {
 	color: blue;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
 	width: 20%;
+	height: 100%;
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	background:#dddddd;
 }
 
 .container {
@@ -18,7 +21,6 @@ nav {
 	margin: 10%;
 	width: 80%;
 	max-width: 200px;
-	height: 80%;
 }
 
 .navlist {
@@ -41,7 +43,7 @@ a {
 }
 
 header {
-	width: 1000px;
+	width: 80%;
 	height: 230px;
 	background:url("../images/allianz.png");
 	background-position: center top;
@@ -52,11 +54,17 @@ header {
 .one_col {
 	display: inline-block;
 	vertical-align:top;
-	width: 24%;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
 /*	margin-right: 5%;*/
 }
 
-.shadow {
+.player {
+	margin: 0 0 0 0%;
+}
+
+/*.shadow {
 			position:relative;
 		}
 
@@ -67,10 +75,9 @@ header {
 	background-color: rgba(0,0,0,0.15);
 	box-shadow:0 0 20px 20px rgba(0,0,0,0.15);
 	height:1%;
-	left:-1%;
 	width:100px;
 	bottom:-10%;
-	margin: 50px;
+margin:100px;
 	border-width: 50px;
 	border-radius:100%;
-}
+}*/
